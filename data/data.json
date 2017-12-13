@@ -1,0 +1,31 @@
+{
+  "talks": [
+    {
+      "title": "First Talk Title",
+      "url": "https://google.com"
+    },
+    {
+      "title": "Second Talk Title",
+      "url": "https://youtube.com"
+    },
+    {
+      "title": "Third Talk Title",
+      "url": "https://youtube.com"
+    },
+    {
+      "title": "Quarter Talk Title",
+      "url": "https://youtube.com"
+    }
+  ],
+
+  "podcasts": [
+    {
+      "title": "First Podcast Title",
+      "url": "https://google.com"
+    },
+    {
+      "title": "Second Podcast Title",
+      "url": "https://youtube.com"
+    }
+  ]
+}
