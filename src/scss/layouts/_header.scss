@@ -1,0 +1,31 @@
+// =============================================================================
+//  HEADER
+// =============================================================================
+
+.header {
+  padding: 40px 0;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+   &__nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  &__logo {
+    font-size: 20px;
+    user-select: none;
+    margin-top: 3px;
+    height: 43px;
+    
+    &--text {
+      display: block;
+      line-height: 50px;
+    }
+  }
+}
+
+

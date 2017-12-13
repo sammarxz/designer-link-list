@@ -1,0 +1,24 @@
+// =============================================================================
+//  BUTTONS
+// =============================================================================
+
+.btn {
+  display: inline-block;
+  font-family: $font-family--secondary;
+  font-size: inherit;
+  font-size: inherit;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  white-space: nowrap;
+  padding: 15px 30px;
+  border-radius: 50px;
+  line-height: 30px;
+  border: none;
+  cursor: pointer;
+  transition: background .3s ease, box-shadow .3s ease;
+}
+
+.btn--primary {
+  @include button-bg($color--primary);
+}

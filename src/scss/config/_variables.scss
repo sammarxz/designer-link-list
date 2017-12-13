@@ -1,0 +1,40 @@
+// =============================================================================
+//  COLOURS
+// =============================================================================
+
+$color--primary: #FF1953;
+$color--secondary: #0F0C14;
+
+$color--text-primary: #212121; 
+$color--text-secondary: #727272;
+
+
+// =============================================================================
+//  FONTS
+// =============================================================================
+
+@import url('https://fonts.googleapis.com/css?family=Overpass+Mono:400,700|Overpass:200,700');
+
+$font-family--primary: "Overpass Mono", monospace;
+$font-family--secondary: "Overpass", sans-serif;
+
+$font-size--small: 16px;
+$font-size--medium: 22px;
+$font-size--large: 36px;
+
+$line-height--medium: 1.6;
+$line-height--small: 1.2;
+
+
+// =============================================================================
+//  BREAKPOINTS
+// =============================================================================
+
+$breakpoints: (
+  xs: 32rem,
+  sm: 48rem,
+  md: 72rem,
+  lg: 96rem,
+  xl: 102rem,
+  xx: 120rem
+);

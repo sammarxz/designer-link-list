@@ -1,0 +1,60 @@
+/* =============================================================================
+  HTML & BODY
+============================================================================= */
+
+body {
+  color: #fff;
+  background-color: $color--secondary;
+  font-family: $font-family--primary;
+  font-size: $font-size--small;
+  font-weight: 400;
+  line-height: $line-height--medium;
+}
+
+::selection {
+  background: transparent;
+  color: $color--primary;
+}
+
+
+/* =============================================================================
+  HEADINGS
+============================================================================= */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-family--secondary;
+  font-weight: 200;
+  margin-bottom: 22px;
+  line-height: $line-height--small;
+}
+
+h1 {
+  font-size: $font-size--large;
+}
+
+h2 {
+  font-size: $font-size--medium;
+}
+
+
+/* =============================================================================
+  TEXT
+============================================================================= */
+
+p {
+  margin-bottom: 22px;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
