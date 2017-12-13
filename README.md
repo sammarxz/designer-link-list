@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/sammarxz/designer-link-list/master/assets/img/dznn.png alt="dznn Logo">
+  <img src="https://raw.githubusercontent.com/sammarxz/designer-link-list/master/assets/img/dznn.png" alt="dznn Logo">
 </p>
 
 ---
