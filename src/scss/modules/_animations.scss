@@ -14,16 +14,33 @@
 }
 
 .animation-heart--moveLeft {
-  animation: dash 6s linear forwards .8s, movecircle--left .6s ease-out forwards 1.6s;
+  animation: dash 6s linear forwards .8s, 
+             movecircle--left .6s ease-out forwards 1.6s;
 }
 
 .animation-heart--moveTop {
-  animation: dash 6s linear forwards .8s, movecircle--top .6s ease-out forwards 1.6s;
+  animation: dash 6s linear forwards .8s, 
+             movecircle--top .6s ease-out forwards 1.6s;
 }
 
-.animation__logotype {
+.animation__fade-in {
   opacity: 0;
   animation: fade-in 2s ease forwards 1.5s;
+}
+
+.animation__fade-to-bottom {
+  opacity: 0;
+  animation: fade-to-bottom 2s ease forwards 1.5s;
+}
+
+.animation__fade-to-top {
+  opacity: 0;
+  animation: fade-to-top 2s ease forwards 1.5s;
+}
+
+.animation__scale {
+  transform: scale(0);
+  animation: scale 1s ease-out forwards 1.8s;
 }
 
 @keyframes dash {
@@ -47,5 +64,44 @@
 @keyframes fade-in {
   to {
     opacity: 1;
+  }
+}
+
+@keyframes fade-to-bottom {
+  from {
+    transform: translateY(10px);
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-to-top {
+  from {
+    transform: translateY(-10px);
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes scale {
+  0%{ 
+    transform:scale(0); 
+    opacity:0;
+  }
+  50%{ 
+    transform:scale(1.3); 
+    opacity:0.4;
+  }
+  75%{ 
+    transform:scale(0.9); 
+    opacity:0.7;
+  }
+  100%{ 
+    transform:scale(1); 
+    opacity:1;
   }
 }

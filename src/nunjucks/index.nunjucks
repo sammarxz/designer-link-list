@@ -3,16 +3,16 @@
 {% block content %}
 
   <section class="section call-to-action txt-center">
-    <h1 class="section__title">Collaborative list of links for designers</h1>
-    <a href="#" class="btn btn--primary">Collaborate on Github</a>
+    <h1 class="section__title animation__fade-to-bottom">Collaborative list of links for designers</h1>
+    <a href="#" class="btn btn--primary animation__scale"><i class="icon-github-circled"></i> Collaborate on Github</a>
   </section>
 
   <section>
-    <div class="masonry">
+    <div class="masonry animation__fade-in">
 
       <div class="masonry__item">
         <ul class="list">
-          <h2 class="list__title">Talks</h2>
+          <h2 class="list__title c-green"><i class="icon-chat"></i> Talks</h2>
           {% for talk in talks %}
             <li class="list__item">
               <a href="{{ talk.url }}" target="blank">
@@ -25,7 +25,20 @@
 
       <div class="masonry__item">
         <ul class="list">
-          <h2 class="list__title">Podcasts</h2>
+          <h2 class="list__title c-cyan"><i class="icon-video"></i> Online Courses</h2>
+          {% for course in courses %}
+            <li class="list__item">
+              <a href="{{ course.url }}" target="blank">
+                <h3 class="m-0">{{ course.title }}</h3>
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <div class="masonry__item">
+        <ul class="list">
+          <h2 class="list__title c-pink"><i class="icon-podcast"></i> Podcasts</h2>
           {% for podcast in podcasts %}
             <li class="list__item">
               <a href="{{ podcast.url }}" target="blank">
@@ -38,11 +51,11 @@
 
       <div class="masonry__item">
         <ul class="list">
-          <h2 class="list__title">Podcasts</h2>
-          {% for podcast in podcasts %}
+          <h2 class="list__title c-orange"><i class="icon-money"></i>Freebies</h2>
+          {% for freebie in freebies %}
             <li class="list__item">
-              <a href="{{ podcast.url }}" target="blank">
-                <h3 class="m-0">{{ podcast.title }}</h3>
+              <a href="{{ freebie.url }}" target="blank">
+                <h3 class="m-0">{{ freebie.title }}</h3>
               </a>
             </li>
           {% endfor %}
@@ -51,11 +64,11 @@
 
       <div class="masonry__item">
         <ul class="list">
-          <h2 class="list__title">Podcasts</h2>
-          {% for podcast in podcasts %}
+          <h2 class="list__title c-yellow"><i class="icon-book"></i> Books</h2>
+          {% for book in books %}
             <li class="list__item">
-              <a href="{{ podcast.url }}" target="blank">
-                <h3 class="m-0">{{ podcast.title }}</h3>
+              <a href="{{ book.url }}" target="blank">
+                <h3 class="m-0">{{ book.title }}</h3>
               </a>
             </li>
           {% endfor %}
@@ -64,24 +77,11 @@
 
       <div class="masonry__item">
         <ul class="list">
-          <h2 class="list__title">Podcasts</h2>
-          {% for podcast in podcasts %}
+          <h2 class="list__title c-purple"><i class="icon-blog"></i> Blogs</h2>
+          {% for blog in blogs %}
             <li class="list__item">
-              <a href="{{ podcast.url }}" target="blank">
-                <h3 class="m-0">{{ podcast.title }}</h3>
-              </a>
-            </li>
-          {% endfor %}
-        </ul>
-      </div>
-
-      <div class="masonry__item">
-        <ul class="list">
-          <h2 class="list__title">Podcasts</h2>
-          {% for podcast in podcasts %}
-            <li class="list__item">
-              <a href="{{ podcast.url }}" target="blank">
-                <h3 class="m-0">{{ podcast.title }}</h3>
+              <a href="{{ blog.url }}" target="blank">
+                <h3 class="m-0">{{ blog.title }}</h3>
               </a>
             </li>
           {% endfor %}

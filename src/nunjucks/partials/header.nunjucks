@@ -5,11 +5,20 @@
       <circle class="animation-heart--moveLeft" cx="27.5" cy="27.5" r="12.7" stroke="#FF1953" fill="transparent" stroke-width="2"/>
       <circle class="animation-heart--moveTop" cx="27.5" cy="27.5" r="12.7" stroke="#FF1953" fill="transparent" stroke-width="2"/>
     </svg>
-    <span class="header__logo--text animation__logotype f-right">dznn.co</span>
+    <span class="header__logo--text animation__fade-in f-right">dznn.co</span>
   </a>
   <nav class="header__nav">
     <ul>
-      <li><a href="">teste</a></li>
+      <li class="animation__fade-to-top">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//localhost%3A3000/" class="tooltip tooltip--left" data-tooltip="Share on Facebook" title="Share on Facebook">
+          <i class="icon-facebook"></i> 
+        </a>
+      </li>
+      <li class="animation__fade-to-top">
+        <a href="https://twitter.com/home?status=Hey,%20you%20must%20see%20this%20Designer's%20List%20by%20%40sammarxz" class="tooltip tooltip--left" data-tooltip="Share on Twitter" title="Share on Twitter">
+          <i class="icon-twitter"></i>
+        </a>
+      </li>
     </ul>
   </nav>
 </header>

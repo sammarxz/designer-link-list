@@ -64,7 +64,7 @@ gulp.task('server', ['compileSass', 'compileNunjucks'], function() {
 
 
 // Build things
-gulp.task('build', ['minifyHtml', 'minifyCss'], function() {
+gulp.task('build', ['compileNunjucks', 'compileSass', 'minifyHtml', 'minifyCss'], function() {
     gulp.src(['./assets/css/main.css'], { base: 'src' })
         .pipe(gulp.dest('./'));
 });

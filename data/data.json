@@ -1,31 +1,269 @@
 {
   "talks": [
     {
-      "title": "First Talk Title",
-      "url": "https://google.com"
+      "title": "My life in typefaces - Matthew Carter",
+      "url": "https://www.youtube.com/watch?v=xjxyEwjG2Es"
     },
     {
-      "title": "Second Talk Title",
-      "url": "https://youtube.com"
+      "title": "Designers – Think big! - Tim Brown",
+      "url": "https://www.youtube.com/watch?v=UAinLaT42xY"
     },
     {
-      "title": "Third Talk Title",
-      "url": "https://youtube.com"
+      "title": "Your elusive creative genius - Elizabeth Gilbert",
+      "url": "https://www.youtube.com/watch?v=86x-u-tz0MA"
     },
     {
-      "title": "Quarter Talk Title",
-      "url": "https://youtube.com"
+      "title": "Four lessons in creativity - Julie Burstein",
+      "url": "https://www.youtube.com/watch?v=sY0Pf_pfqCI"
+    },
+    {
+      "title": "On Web Typography",
+      "url": "https://www.youtube.com/watch?v=sY0Pf_pfqCI"
+    },
+    {
+      "title": "Nick Campbell: Doing Your Best Work",
+      "url": "https://www.youtube.com/watch?v=3DdckQKCUeQ&feature=youtu.be"
+    },
+    {
+      "title": "The Shape Of Design",
+      "url": "https://vimeo.com/17084347"
+    },
+    {
+      "title": "Typomaniac",
+      "url": "http://youtu.be/9IjgyPoYbOY"
+    },
+    {
+      "title": "The Best Interface is No Interface by Golden Krishna ",
+      "url": "https://www.youtube.com/watch?v=iFL4eR1pqMQ"
+    },
+    {
+      "title": "Michael Bierut: How to use graphic design",
+      "url": "https://www.youtube.com/watch?v=7NuKb9mk0ac"
+    },
+    {
+      "title": "Michael Bierut: How to think like a designer",
+      "url": "https://www.youtube.com/watch?v=RanfCx18gi4"
     }
   ],
 
   "podcasts": [
     {
-      "title": "First Podcast Title",
-      "url": "https://google.com"
+      "title": "Design Matters",
+      "url": "http://www.debbiemillman.com/designmatters/"
     },
     {
-      "title": "Second Podcast Title",
-      "url": "https://youtube.com"
+      "title": "The Reflex Blue Show",
+      "url": "https://itunes.apple.com/podcast/id275625131?mt=8"
+    },
+    {
+      "title": "99% Invisible",
+      "url": "http://99percentinvisible.org/"
+    },
+    {
+      "title": "Adventures in Design",
+      "url": "https://itunes.apple.com/us/podcast/adventures-in-design/id503341322?mt=2"
+    },
+    {
+      "title": "Design Story",
+      "url": "https://itunes.apple.com/us/podcast/series-teaser/id1177159166?i=1000377941884&mt=2"
+    },
+    {
+      "title": "Diseño Cha Cha Cha",
+      "url": "https://www.disenochachacha.com/"
+    },
+    {
+      "title": "Typeradio",
+      "url": "http://www.typeradio.org/"
+    },
+    {
+      "title": "DesignBetter.co Podcast",
+      "url": "https://www.designbetter.co/podcast"
+    },
+    {
+      "title": "High Resolution",
+      "url": "https://www.highresolution.design/"
+    },
+    {
+      "title": "Overtime by Dribbble",
+      "url": "https://dribbble.com/overtime"
+    },
+    {
+      "title": "UI Breakfast",
+      "url": "https://uibreakfast.com/category/podcast/"
+    },
+    {
+      "title": "UX Podcast",
+      "url": "https://uxpodcast.com/"
+    },
+    {
+      "title": "The UX Intern",
+      "url": "http://theuxintern.com/"
+    },
+    {
+      "title": "The Deeply Graphic Design",
+      "url": "http://thedeependdesign.com/graphic-design-podcast/"
+    }
+  ],
+
+  "books": [
+    {
+      "title": "Design Basics ",
+      "url": "http://www.amazon.com/Design-Basics-Stephen-Pentak/dp/1285858220?tag=fastcomp08-20"
+    },
+    {
+      "title": "The Creative Habit: Learn It and Use It for Life",
+      "url": "https://www.amazon.com/Creative-Habit-Learn-Use-Life/dp/1480589837"
+    },
+    {
+      "title": "Steal Like an Artist",
+      "url": "https://www.amazon.com/Steal-Like-Artist-Things-Creative/dp/0761169253"
+    },
+    {
+      "title": "The New Basics ",
+      "url": "http://www.amazon.com/Graphic-Design-The-New-Basics/dp/1568987021?tag=fastcomp08-20"
+    },
+    {
+      "title": "Thoughts on Design",
+      "url": "http://www.amazon.com/Thoughts-Design-Paul-Rand/dp/081187544X?tag=fastcomp08-20"
+    },
+    {
+      "title": "Meggs’ History of Graphic Design",
+      "url": "http://www.amazon.com/Meggs-History-Graphic-Design-Philip/dp/0470168730?tag=fastcomp08-20"
+    },
+    {
+      "title": "Thinking with Type",
+      "url": "https://www.amazon.com/Thinking-Type-2nd-revised-expanded/dp/1568989695"
+    },
+    {
+      "title": "How to be a Graphic Designer, Without Losing Your Soul",
+      "url": "https://www.amazon.com/Graphic-Designer-without-Losing-Expanded/dp/1568989830"
+    },
+    {
+      "title": "Paul Rand: Conversations with Students",
+      "url": "https://www.amazon.com/Paul-Rand-Conversations-Michael-Kroeger/dp/1568987250"
+    }
+  ],
+
+  "courses": [
+    {
+      "title": "Skillshare",
+      "url": "http://www.skillshare.com/"
+    },
+    {
+      "title": "Tuts+",
+      "url": "https://design.tutsplus.com/courses?_ga=2.269106097.1111846163.1513185340-1942891358.1513185340"
+    },
+    {
+      "title": "Creative Live",
+      "url": "https://www.creativelive.com/"
+    },
+    {
+      "title": "Alisson Graphic Design",
+      "url": "https://alison.com/courses?query=design+graphic"
+    },
+    {
+      "title": "Beginners guide to Graphic Design",
+      "url": "https://www.youtube.com/watch?v=WONZVnlam6U&list=PLYfCBK8IplO4E2sXtdKMVpKJZRBEoMvpn"
+    },
+    {
+      "title": "Learn Adobe Photoshop",
+      "url": "https://www.youtube.com/watch?v=sF_jSrBhdlg&list=PLYfCBK8IplO6v0QjCj-TSrFUXnRV0WxfE"
+    },
+    {
+      "title": "Learn Adobe Illustrator",
+      "url": "https://www.youtube.com/watch?v=IBouhf4seWQ&list=PLYfCBK8IplO4X-jM1Rp43wAIdpP2XNGwP"
+    },
+    {
+      "title": "Learn After Effects - Essential",
+      "url": "https://www.youtube.com/watch?v=SMLCVH-kiUk"
+    }
+  ],
+
+
+  "freebies": [
+    {
+      "title": "DB Freebies",
+      "url": "http://dbfreebies.co/"
+    },
+    {
+      "title": "FreebiesBug",
+      "url": "https://freebiesbug.com/"
+    },
+    {
+      "title": "Pixelbuddha",
+      "url": "https://pixelbuddha.net/"
+    },
+    {
+      "title": "Graphic Burguer",
+      "url": "https://graphicburger.com/"
+    },
+    {
+      "title": "Freebiesjedi",
+      "url": "http://freebiesjedi.com/"
+    },
+    {
+      "title": "Pivle",
+      "url": "http://pivle.com/"
+    },
+    {
+      "title": "Freebies Supply",
+      "url": "https://freebiesupply.com/"
+    }
+  ],
+
+  "blogs": [
+    {
+      "title": "Mirador",
+      "url": "http://www.thisismirador.com/"
+    },
+    {
+      "title": "FormFiftyFive",
+      "url": "https://formfiftyfive.com/"
+    },
+    {
+      "title": "Abduzeedo",
+      "url": "http://abduzeedo.com/"
+    },
+    {
+      "title": "Design Week",
+      "url": "https://www.designweek.co.uk/"
+    },
+    {
+      "title": "Shillington Design Blog",
+      "url": "https://www.shillingtoneducation.com/blog/"
+    },
+    {
+      "title": "InvisionApp Blog",
+      "url": "https://www.invisionapp.com/blog"
+    },
+    {
+      "title": "The Dsgn Blog",
+      "url": "http://thedsgnblog.com/tagged/graphic-design"
+    },
+    {
+      "title": "AisleOne",
+      "url": "http://www.aisleone.net/"
+    },
+    {
+      "title": "Good Design Makes me Happy",
+      "url": "http://www.gooddesignmakesmehappy.com/"
+    },
+    {
+      "title": "Van Schneider Blog",
+      "url": "http://www.vanschneider.com/blog/"
+    },
+    {
+      "title": "Creative Blog",
+      "url": "http://www.creativebloq.com/"
+    },
+    {
+      "title": "httpster",
+      "url": "https://httpster.net/"
+    },
+    {
+      "title": "The Design Blog",
+      "url": "http://thedsgnblog.com/"
     }
   ]
+
 }

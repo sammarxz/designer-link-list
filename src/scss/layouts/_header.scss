@@ -12,7 +12,22 @@
    &__nav ul {
     margin: 0;
     padding: 0;
+    margin-top: 15px;
     list-style: none;
+    font-size: 1.2rem;
+
+    li {
+      display: inline;
+      margin-left: 5%;
+
+      a {
+        transition: color .3s ease;
+
+        &:hover {
+          color: $color--primary;  
+        }
+      }
+    }
   }
   
   &__logo {
